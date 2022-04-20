@@ -1,0 +1,383 @@
+@import '../components/variables';
+@import '../components/button';
+@import '../components/variables';
+@import '../components/logo';
+
+
+
+
+//RESET CSS
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td, footer {
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: none;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-size: 100%;
+}
+
+.list-none-style{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.list-none-style:hover{
+    color: red;
+}
+
+.linea{
+    color: red;
+}
+
+.copyfoot{
+    background-color: #393E46;
+    height: 3.5rem;
+}
+
+.borderedsocial{
+    border-top: 1px solid #393E46;;
+    border-bottom: 1px solid #393E46;
+}
+
+.textocarrucel1{
+    font-size: 35px;
+}
+.textocarrucel2{
+    font-size: 45px;
+}
+
+
+//Servicios con carrucel
+main{
+    div{
+        h2{
+            font-size: 3rem;
+            margin-top: 8rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.bgcar{
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #00000095;
+    width: 100%;
+    height: 25%;
+}
+
+.bgcar{
+    h4{
+        padding-left: 2rem;
+        font-size: 1.5rem;
+        padding-top: 2.5rem;
+    }
+    p{
+        padding-left: 2rem;
+        font-size: 1rem;
+    }
+
+}    
+
+.botommas{
+    margin-top: 8.8rem;
+    height: 25%;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+//IMAGEN MITAD
+.bgcl{
+    background-color: #0C4271;
+}
+
+.mr-0{
+    margin-right: 0!important;
+}
+.phone-ref{
+    position: relative;
+}
+
+.tituloSeccionHomeWhite{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.text-white{
+    color: white !important;
+}
+
+.phoneimg{
+    width: 200px;
+    height: 200px;
+}
+
+.mt-2{
+    margin-top: 0.5rem!important;
+}
+
+.btnimgmitad{
+    color: white;
+}
+
+.btnimgmitad :hover{
+    color: red;
+}
+
+
+//CARDS EQUIPS
+.titulo-article{
+    margin-bottom: 1rem;
+}
+@media (max-width: 900px){
+    .tituloArticleHome{
+        font-weight: 700;
+        color: #333;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+.custom-card-equips{
+    box-shadow: 0px 4px 10px rgb(0, 0, 0 / 14%);
+    width: 100%;
+    border: solid 1px #ddd;
+    color: #333;
+    display: block;
+    text-decoration: none!important;
+}
+
+.custom-card-equips{ 
+        img{
+            border-radius: 10px 10px 0px 0px;
+            filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+
+        }
+    }
+
+
+.item{
+    img{
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        vertical-align: middle;
+    }
+}
+
+.item{
+    img:hover{
+        filter: brightness(120%)
+    }
+}
+
+.contenedor-box{
+    padding: 20px;
+}
+
+.tituloArticleCard{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px!important;
+}
+
+.margin-left-tittle{
+    margin-left: 20px;
+    position: relative;
+}
+
+.box-text-equips{
+    height: 135px;
+}
+
+ul, .text-equips, .padre{
+    padding-left: 10px;
+}
+
+
+article{
+    div{
+        h2{
+            font-size: 3rem;
+            margin-top: 8rem;
+        }
+    }
+}
+
+
+//FAQS HOME
+.tituloSeccionHome{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    padding-bottom: 10px;
+}
+@media (max-width: 768px){
+    .mbb-1{
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media (max-width: 900px){
+    .tituloSeccionHome{
+        font-size: 1.8rem;
+    }
+}
+
+.flex-image{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .flex-image{
+        margin-top: 2rem;
+    }
+}
+
+img .img-sombra, .shadow{
+    border-radius: 10px;
+} 
+
+.img-sombra{
+    background-color: #eff0f6;
+    border: 0.01rem solid #e0e1ed;
+    color: #585CA1;
+}
+
+.btntbl{
+    color: white;
+}
+.btntbl:hover{
+    color: black;
+
+}
+
+
+//SECCION SERVICIOS
+
+
+.tituloSeccion{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    display: inline-block;
+}
+
+@media (max-width: 768px){
+    .tituloSeccion{
+        font-size: 2.5rem;
+    }
+}
+
+.oscurecerimg{
+    filter: brightness(60%);
+}
+
+
+//DISPLAY NONE
+
+@media handheld, only screen and (max-width: 576px){
+    .mobilenone{
+        display: none;
+    }
+}
+
+
+@media handheld, only screen and (max-width: 767px) {
+    .disnone {
+    display:none;
+    }
+}
+    
+    @media only screen and (max-width: 992px) {
+    .disnone {
+    display:none;
+    }
+}
+
+
+// seccion equipos
+.portfolio *{
+    z-index: 2;
+}
+.portfolio-item{
+    right: 0;
+    margin: 0 0 15px;
+}
+
+hr{
+    margin-top: 21px;
+    margin-bottom: 21px;
+    border: 0;
+    border-top: 1px solid #3A3845;
+}
+
+.ventajas{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    div{
+        label{
+            background-color: #4f6268;
+            height: 2px;
+            display: block;
+            margin-top: 0.2em;
+            margin-bottom: 5px;
+            font-weight: bold;
+            width: 3rem;
+        }
+    }
+}
+
+
+.zoom:hover .imagen {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+    transition: 1s;
+}
+.zoom {
+    overflow:hidden;
+}
+
+
+article{
+    div{
+        label{
+        background-color: #4f6268;
+        height: 2px;
+        display: block;
+        margin-top: 0.2em;
+        margin-bottom: 5px;
+        font-weight: bold;
+        width: 3rem;
+        }
+    }
+}
+
+
+//seccion faqs
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: black;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    box-shadow: none;
+}

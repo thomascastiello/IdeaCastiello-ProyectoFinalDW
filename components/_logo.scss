@@ -1,0 +1,20 @@
+.logo{
+    padding: 5px 40px;
+    border-radius: 50%;
+    height: 95px;
+    width: 165px;
+    margin: 0 80px;
+}
+
+.navtransition{
+    //border-radius: 15px;
+    transition: 0.7s;
+    color: white;
+    text-decoration: none;
+}
+
+
+.navtransition:hover{
+    //background-color: red;
+    text-decoration: underline;
+}

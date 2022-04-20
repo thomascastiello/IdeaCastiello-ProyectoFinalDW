@@ -1,0 +1,31 @@
+$colornf: black;
+$colornf2: #15498A;
+$colorf: #393E46;
+$font-size1: 2rem;
+$font-size2:1rem;
+
+.colornf{
+        background-color: $colornf;
+    }
+
+.bordenv{
+        border-radius: 10rem;
+        text-align: center;
+    }
+    
+.paddnav{
+        align-items: center;
+    }
+
+.redsocial{
+        color: white;
+        transition: 0.5s ease 0s;
+        background-color: #3A3845;
+        border-radius: 2px;
+}
+
+.redsocial:hover{
+    color: red;
+    transform: rotate(360deg);
+}
+
